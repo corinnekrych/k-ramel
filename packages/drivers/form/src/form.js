@@ -14,6 +14,7 @@ export default ({
     reducer: {
       values: types.keyValue({ key }),
       errors: types.keyValue({ key }),
+      rules: types.keyValue({ key }),
     },
   }),
   getDriver: (store) => {
